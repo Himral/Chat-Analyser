@@ -12,8 +12,7 @@ st.set_page_config(
     )
 st.sidebar.title("Whatsapp Chat Analyzer")
 
-nltk.download('vader_lexicon')
-nltk.download('wordnet')
+
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 
